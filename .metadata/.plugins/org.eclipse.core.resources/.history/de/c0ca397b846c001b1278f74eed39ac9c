@@ -1,0 +1,11 @@
+
+public class IntegerTypes {
+
+	public static void main(String[] args) {
+		byte b = -128;
+		byte a = 127;
+		System.out.println(b);
+
+	}
+
+}

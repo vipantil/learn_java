@@ -1,0 +1,24 @@
+
+public class TerneryConditionalOperators {
+
+	public static void main(String[] args) {
+		// (?:)
+		int x=110;
+		int y=20;
+		int lar;
+		/* if(x>y)
+		{
+			lar = x;
+		}
+		else
+		{
+			lar = y;
+		} */
+		
+		// we can write the same program in below type of code
+		
+		lar = (x > y)?x:y;
+		System.out.println("largest = " + lar);
+	}
+
+}

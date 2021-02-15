@@ -1,0 +1,20 @@
+
+public class TerneryConditionalOperators {
+
+	public static void main(String[] args) {
+		// (?:)
+		int x=10;
+		int y=20;
+		int lar;
+		if(x>y)
+		{
+			lar = x;
+		}
+		else
+		{
+			lar = y;
+		}
+		System.out.println("largest = " + lar);
+	}
+
+}

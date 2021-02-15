@@ -1,0 +1,10 @@
+
+public class IncrementAndDecrementOperators {
+
+	public static void main(String[] args) {
+		// increment operators are ++ ( use to increase the value of variable by one )
+		//decrement operators are -- ( use to decrease the value of variable by one )
+
+	}
+
+}

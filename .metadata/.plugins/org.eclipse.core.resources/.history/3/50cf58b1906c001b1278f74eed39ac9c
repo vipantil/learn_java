@@ -1,0 +1,23 @@
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// operators are used to perform some operations on data
+		// operators are broadly classified into three catagories
+		//1. unary operators, the operator can take only one operant , Ex: n++
+		//2. binary operators, the operator can take two operant , Ex: x + y ( plus is an operator )
+		//3. ternary operators, the operator can take three operant
+		// arithmetic operators ( + - X / % )
+		
+		
+		// airthmetic operator
+		// when one int divided by anoter int the answer will be int
+		// when double divide with an int the answer will be double
+		// when floating point valve divided with an int the result will be floating point valbe
+		System.out.println(10/3);//int value
+		System.out.println(10/3.0);//double type value, 16 digit after point
+		System.out.println(10.0f/3);//floating point value, 7 digit after point
+
+	}
+
+}

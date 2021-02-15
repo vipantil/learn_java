@@ -1,0 +1,27 @@
+
+public class CharacterDataTypes {
+
+	public static void main(String[] args) {
+		//a variable in which single character constant can be store is called character data types
+		//key word = char
+		//char = 2 byte of memory
+		
+		System.out.println(Integer.toHexString(65));
+		
+		char c = 'A'; // this is a variable
+		System.out.println(c);
+		c = 65; //this is called implicit typecasting
+		System.out.println(c);
+		
+		c = '\u0041';
+		System.out.println(c);
+		
+		c ='\u0905';// hindi character not showing with unicode u0905
+		System.out.println(c);
+		//we need to change the character sets utf
+		// right click on project note > property >text file encoding > utf-08
+		//now you can see hindi character
+
+	}
+
+}

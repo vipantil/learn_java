@@ -1,0 +1,13 @@
+
+public class AssignmentOperators {
+
+	public static void main(String[] args) {
+		// assignment operators are 
+		// =    +=     -+    *=      /=       %=
+		// for example X += y meaning of this is x = x+y
+		int n=5;
+		n *= n += 10;
+
+	}
+
+}

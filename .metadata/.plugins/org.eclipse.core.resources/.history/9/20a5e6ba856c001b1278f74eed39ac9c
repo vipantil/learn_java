@@ -1,0 +1,15 @@
+
+public class IntegerTypes {
+
+	public static void main(String[] args) {
+		byte b = -128;
+		byte a = 127;
+		short c = 128;
+		System.out.println(b);
+		System.out.println(a);
+		System.out.println(c);
+		//byte can store value -128 to 127
+		//in JAVA any number without decimal treated as integer
+	}
+
+}

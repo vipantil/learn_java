@@ -1,0 +1,15 @@
+
+public class CharacterDataTypes {
+
+	public static void main(String[] args) {
+		//a variable in which single character constant can be store is called character data types
+		//key word = char
+		//char = 2 byte of memory
+		// yunicode characters represent with \u followed by hexa decimal value of the character
+		// example character A got a value 65
+		// hexa decimal value of 65
+		System.out.println(Integer.toHexString(65));
+
+	}
+
+}

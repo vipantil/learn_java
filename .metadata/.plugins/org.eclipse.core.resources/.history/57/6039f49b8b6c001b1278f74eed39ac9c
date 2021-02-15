@@ -1,0 +1,18 @@
+
+public class CharacterDataTypes {
+
+	public static void main(String[] args) {
+		//a variable in which single character constant can be store is called character data types
+		//key word = char
+		//char = 2 byte of memory
+		
+		System.out.println(Integer.toHexString(65));
+		
+		char c = 'A'; // this is a variable
+		System.out.println(c);
+		c = 65;
+		System.out.println(c);
+
+	}
+
+}

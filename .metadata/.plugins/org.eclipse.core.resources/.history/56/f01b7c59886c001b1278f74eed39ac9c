@@ -1,0 +1,10 @@
+
+public class RealTypes {
+
+	public static void main(String[] args) {
+		float sal = 2500.5;
+		System.out.println("my salary = "+ sal);
+
+	}
+
+}
